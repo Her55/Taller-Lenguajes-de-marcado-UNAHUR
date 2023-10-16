@@ -1,0 +1,112 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Indie Flower', cursive;
+    min-width: 100vh;
+    background-color: rgb(226, 226, 226);    
+    margin: 0;
+}
+.enlaces {     
+    font-size: larger;     
+}
+.enlace{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    /*list-style: none; */   
+    /*display: block;*/
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 1%;    
+}
+.encabezado{    
+    height: 100vh;
+    background-image: url(./imagenes/encabezado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.titulo{
+    font-size: 5vh;
+    text-shadow: 5px 5px 5px #020202;    
+    padding-left: 7%;
+    padding-top: 10%;          
+    text-align: left;
+    font-size: 2.5rem;  
+}
+main{
+    display: table;
+    width: 100%;
+}
+.bloque_izq{
+    float: right;
+    width: 70%;      
+}
+#quien_soy{
+    width: 70%;    
+    text-align: center;
+    font-size: large;
+    background-color: rgb(219, 219, 219);  
+    padding: 5vh 5vh; 
+    float: left;
+}
+.presentacion{
+    text-align: justify;
+    
+}
+aside{   
+    width: 20%;
+    float: right;
+    padding: 2%;
+    text-align: justify;
+    font-size: large;
+    margin-top: 5%;
+}
+#mantra{
+    text-align: center;
+}
+#clases{
+    display: table;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#clases_grupales{
+    width: 30%;
+    float: left;
+    /*margin-left: 10%;*/
+    padding-left: 10%;  
+    padding-right: 5%; 
+    font-size: larger
+}
+#estilos_de_yoga{
+    width: 30%;
+    float: right;
+    padding-left: 5%;
+    padding-right: 10%;   
+    font-size: larger
+}
+.redes{
+    background-color: rgb(219, 219, 219); 
+    padding-top: 2vh; 
+    padding-bottom: 2vh; 
+    font-size: x-large; 
+    padding-left: 2%; 
+}
+.redes a{
+    text-decoration: none;
+    font-size: x-large;
+    inline-size: 7vh;    
+}
+footer{
+    text-align: center;
+}
+.yoga {    
+    font-style: italic;  
+    color: blueviolet;  
+}
+.plegaria{
+    color: rgb(160, 131, 2);
+}

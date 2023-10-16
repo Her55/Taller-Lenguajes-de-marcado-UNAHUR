@@ -1,0 +1,26 @@
+<productos>
+    <limpieza>
+        <producto>
+            <nombre>Jabón</nombre>
+            <precio>250</precio>
+            <cantidad>50</cantidad>
+        </producto>
+        <producto>
+            <nombre>Detergente</nombre>
+            <precio>300</precio>
+            <cantidad>30</cantidad>
+        </producto>
+    </limpieza>
+    <alimentos>
+        <producto>
+            <nombre>Pan Lactal</nombre>
+            <precio>1000</precio>
+            <cantidad>20</cantidad>
+        </producto>
+        <producto>
+            <nombre>Pan integral</nombre>
+            <precio>1500</precio>
+            <cantidad>15</cantidad>
+        </producto>
+    </alimentos>
+</productos>

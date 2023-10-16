@@ -1,0 +1,28 @@
+{
+    "productos": {
+      "limpieza": [
+        {
+          "nombre": "Jabón",
+          "precio": 250,
+          "cantidad": 50
+        },
+        {
+          "nombre": "Detergente",
+          "precio": 300,
+          "cantidad": 30
+        }
+      ],
+      "alimentos": [
+        {
+          "nombre": "Pan Lactal",
+          "precio": 1000,
+          "cantidad": 20
+        },
+        {
+          "nombre": "Pan integral",
+          "precio": 1500,
+          "cantidad": 15
+        }
+      ]
+    }
+  }

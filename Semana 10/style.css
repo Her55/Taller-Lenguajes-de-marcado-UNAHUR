@@ -1,0 +1,124 @@
+*{ 
+    margin: 0;     
+    padding: 0;
+}
+body{      
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;   
+    font-family: 'Dancing Script', cursive;
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+header{    
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    padding-top: 7%;     
+    background-image: url(./img/fondo-menu.jpg);    
+    background-size: cover;  
+}
+.nav_top{        
+    margin-top: 5%;    
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;   
+}
+main{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;    
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    background-image: url(./img/fondo-main.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;  
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section{  
+    padding-top: 10%;  
+    padding-bottom: 10%;  
+    padding-left: 5%;
+    padding-right: 5%; 
+    margin: 2%;      
+    border: 1px dashed rgb(163, 163, 163);
+    border-radius: 20px;     
+}
+article{   
+    display: flex;      
+    justify-content: space-between;
+    margin: 2%;   
+    padding: 2%;    
+}
+#titulo {
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(5, 5, 5);
+    font-size: xxx-large;   
+    text-shadow: 5px 2px 2px rgb(255, 255, 255);
+}
+#titulo_menu{
+    padding-top: 2%;
+    padding-left: 10%;
+    text-align: left;
+    color: rgb(5, 5, 5);
+    font-size: xx-large;      
+    text-shadow: 5px 2px 2px rgb(255, 255, 255);
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;    
+    font-size: x-large;       
+    color: rgb(255, 255, 255); 
+    text-shadow: 5px 2px 5px #aaaaaa;    
+    border-radius: 20px;       
+}
+h2{
+    color: antiquewhite;
+    text-align: center;    
+}
+.nombre{     
+    color: rgb(255, 255, 255);   
+}
+.sepaprecio{
+    display: flex;
+    justify-content: space-around;   
+    width: 70%;    
+}
+.separador{    
+    border-bottom: 1px dashed rgb(255, 255, 255);
+    width: 80%;   
+}
+.precio{      
+    align-self: flex-end;
+    color: rgb(255, 255, 255);
+}
+.bottom{    
+    background-image: url(./img/fondo-main.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover; 
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-bottom: 3%; 
+}
+#nav_bottom{ 
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    display: flex;
+    justify-content: center;            
+}
+#nav_redes{    
+    padding-left: 2%;   
+    text-align: left;
+}
+#nav_redes a{
+    padding-left: 5%;    
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+footer{     
+    text-align: center;
+    color: #aaaaaa;
+}
+

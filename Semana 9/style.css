@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0;}
+header{
+    background-image: url(./img/fondo.jpg);     
+}
+.links{
+    padding-left: 10%;
+    text-decoration: none;      
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+    text-shadow: 5px 0px 5px #020202;  
+    padding-right: 3%;
+}
+nav{
+    background-color: #c0ada2;
+}
+main{
+    
+}
+body{
+    background-color: rgb(224, 224, 224);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h1{    
+    padding-top: 5%;
+    margin-top: 50px;
+    margin-left: 38%;
+    margin-bottom: 5%;  
+    text-shadow: 5px 5px 5px #020202;   
+    font-size: 50px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+h2{
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+}
+.presentacion{
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-size: 20px;
+}
+#leo{     
+    text-align: center;    
+    padding-bottom: 5%;
+    display: inline-block;
+}
+#vincent{
+    border-top: 5px solid rgb(231, 231, 231) ;
+    text-align: center;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+#pablo{
+    border-top: 5px solid rgb(231, 231, 231) ;
+    text-align: center;
+    padding-bottom: 5%;
+    display: inline-block;
+    border-bottom: 5px solid ;
+    border-bottom-color: hsla(0, 100%, 50%, 0.1); 
+}
+.fotos{
+    float: left;    
+   margin-right: 2%;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+.obras{    
+}
+footer{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+#prueba{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 30px solid #020202;
+    border-width:  5px 8px 5px 8px;    
+    border-style: dotted none solid dashed;
+    border-radius: 12px;
+    border-color: red;
+}
+

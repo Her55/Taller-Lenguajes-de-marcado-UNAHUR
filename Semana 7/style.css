@@ -1,0 +1,66 @@
+
+h1{   
+    text-align: center;    
+    line-height: 0.5;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 5px #999797;
+    font-size: 10vh;
+    font-size: 10vw;
+}
+body{
+    text-align: center;
+    font-size: 1vh;
+    font-size: 1.5vw; 
+}
+p{
+    text-align: justify;
+    
+}
+a{
+    text-decoration: none; 
+    color: black;
+    padding: 0 10px;   
+}
+.menu{
+    line-height: 1.5;
+    text-align: center;    
+    background-color: rgb(233, 233, 233);       
+}
+#span1{
+    font-style: italic;
+    font-weight: bold;
+}
+#span2{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 115, 0);
+}
+#span3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+form{
+    text-align: left;
+    background-color: rgb(233, 233, 233); 
+}
+table{
+    text-align: justify;
+    background-color: rgb(194, 194, 194); 
+}
+ul{
+    background-color: rgb(233, 233, 233);
+    text-align: left;   
+}
+li{    
+    list-style-image: url(./img/compartir.png);
+}

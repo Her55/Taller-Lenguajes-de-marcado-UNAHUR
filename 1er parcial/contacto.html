@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--config-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? family= Bebas+Neue & family= Concierto+One & family= Indie+Flower & display=swap"
+        rel="stylesheet">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./style_contacto.css">
+</head>
+<!--cuerpo-->
+<body>
+    <!--encabezado-->
+    <header class="encabezado" id="inicio">
+        <!--Menu-->
+        <nav class="enlaces">
+            <ul>
+                <li><a href="index.html" class="enlace">INICIO</a></li>
+                <li><a href="index.html#quien_soy" class="enlace">QUIEN SOY</a></li>
+                <li><a href="index.html#mantra" class="enlace">MANTRA</a></li>
+                <li><a href="index.html#clases" class="enlace">CLASES</a></li>
+                <li><a href="./desarrollo.html#reiki" class="enlace"> REIKI</a></li>
+                <li><a href="#contactame" class="enlace">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <!--Titulo-->
+        <div class="titulo">
+            <h1 style="color: aliceblue;">
+                El momento que te mereces
+            </h1>
+            <h3 style="color: aliceblue;">Clases de Yoga y meditacion</h3>
+        </div>
+    </header>
+    <main>
+        <!--formulario-->
+        <form action="" class="form" id="contactame">
+            <h3>Contactame</h3>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre"><br>
+            <label for="apellido">Apellido: </label>
+            <input id="apellido" type="text" name="apellido"><br>
+            <label for="email">E - mail : </label>
+            <input id="email" type="email" name="email"><br>
+            <label for="telefono">Telefono: </label>
+            <input id="telefono" type="number" name="telefono"><br>
+
+            <h4>Niveles de Reiki que maneja:</h4>
+            <input type="radio" name="nivel inicial" id="rb1">
+            <label for="Nivel inicial">Nivel inicial</label><br>
+            <input type="radio" name="nivel inicial" id="rb1">
+            <label for="Nivel inicial">Nivel intermedio</label><br>
+            <input type="radio" name="nivel inicial" id="rb1">
+            <label for="Nivel inicial">Nivel Avanzado</label><br>
+
+            <h4>Que le gustaria aprender</h4>
+            <input id="rb1" type="checkbox" name="gustos">
+            <label for="yoga">Yoga</label>
+            <input id="rb2" type="checkbox" name="gustos">
+            <label for="meditacion">Meditacion</label>
+            <input id="rb3" type="checkbox" name="gustos">
+            <label for="reiki">Reiki</label><br><br>
+
+            <label for="rango de edad">Rango de edades:</label>
+            <input list="edad" id="edades" name="edades">
+            <datalist id="edad">
+                <option value="5 a 14 años"></option>
+                <option value="15 a 24 años"></option>
+                <option value="25 a 34 años"></option>
+                <option value="35 a 44 años"></option>
+                <option value="35 a 44 años"></option>
+                <option value="45 a 54 años"></option>
+                <option value="mas de 55 años"></option>
+            </datalist><br><br>
+
+            <label for="comentario"> Deje un comentario:</label><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10">
+Deje un breve comentario de su vida actual y en que lo podria ayudar la terapia...
+            </textarea><br><br>
+
+            <input type="submit" value="Enviar"><br><br>
+        </form><br>
+    </main>
+    <!--creo icionos desde fontawesome.com-->
+    <nav class="redes">        
+            <a class="fa-brands fa-facebook-f" href="https://www.facebook.com/" target="_blank"> </a>
+            <a class="fa-brands fa-whatsapp" href="https://www.whatsapp.com/?lang=es_LA" target="_blank"></a>
+            <a class="fa-brands fa-instagram" href="https://www.instagram.com/" target="_blank"></a>
+            <a class="fa-brands fa-x-twitter" href="https://twitter.com/home?lang=es" target="_blank"></a>
+            <script src="https://kit.fontawesome.com/f53ca1e41f.js" crossorigin="anonymous"></script>        
+    </nav><br>
+    <footer>
+        <a id="arriba" href="#inicio">IR ARRiBA</a><br>
+        © 2023 Hernan Viltez
+    </footer>
+</body>
+</html>
