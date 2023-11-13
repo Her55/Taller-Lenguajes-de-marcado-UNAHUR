@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alumno</title>
+    <link rel="stylesheet" href="alumno.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Concert+One&family=Dancing+Script:wght@700&family=Indie+Flower&family=Monoton&display=swap"
+        rel="stylesheet">  
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>RoboKids</h1>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container">
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#clases">Clases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#charlas">Charlas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./index.html">LogOut</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="navbar text-light" id="welcome-message"></nav>
+                <script>
+                    // Obtener el valor del parámetro 'usuario' de la URL
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var username = urlParams.get('usuario');
+
+                    // Utilizar el valor del parámetro 'usuario' como desees
+                    document.addEventListener('DOMContentLoaded', function () {
+                        if (username) {
+                            document.getElementById('welcome-message').textContent = '¡Bienvenido/a, ' + username + '!';
+                        } else {
+                            document.getElementById('welcome-message').textContent = 'Usuario no especificado';
+                        }
+                    });
+                </script>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="clases">
+            <br><br><br>
+            <h3>Clases</h3>
+
+            <br><br><br>
+            <h3>Semana 1</h3>
+            <div class="table-responsive">
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Docente</th>
+                        <th scope="col">Materia</th>
+                        <th scope="col">Observaciones</th>
+                        <th scope="col"><button type="button" class="btn btn-danger">Cancelar Todas</button></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>22/33/2023</td>
+                        <td>08:00</td>
+                        <td>Juancito</td>
+                        <td>Matematica</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>22/33/2023</td>
+                        <td>10:00</td>
+                        <td>Juancito</td>
+                        <td>Programacion I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>22/33/2023</td>
+                        <td>12:00</td>
+                        <td>Juancito</td>
+                        <td>Robotica I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+            </table>
+        </div>
+            <h3>Semana 2</h3>
+            <div class="table-responsive">
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Docente</th>
+                        <th scope="col">Materia</th>
+                        <th scope="col">Observaciones</th>
+                        <th scope="col"><button type="button" class="btn btn-danger">Cancelar Todas</button></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>22/33/2023</td>
+                        <td>08:00</td>
+                        <td>Juancito</td>
+                        <td>Matematica</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>22/33/2023</td>
+                        <td>10:00</td>
+                        <td>Juancito</td>
+                        <td>Programacion I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>22/33/2023</td>
+                        <td>12:00</td>
+                        <td>Juancito</td>
+                        <td>Robotica I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+            </table>
+        </div>
+            <h3>Semana 3</h3>
+            <div class="table-responsive">
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Docente</th>
+                        <th scope="col">Materia</th>
+                        <th scope="col">Observaciones</th>
+                        <th scope="col"><button type="button" class="btn btn-danger">Cancelar Todas</button></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>22/33/2023</td>
+                        <td>08:00</td>
+                        <td>Juancito</td>
+                        <td>Matematica</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>22/33/2023</td>
+                        <td>10:00</td>
+                        <td>Juancito</td>
+                        <td>Programacion I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>22/33/2023</td>
+                        <td>12:00</td>
+                        <td>Juancito</td>
+                        <td>Robotica I</td>
+                        <td>Primer cuatrimestre - año 1</td>
+                        <td><button type="button" class="btn btn-link">Cancelar clase</button></td>
+                    </tr>
+            </table>
+        </div>
+        </section><br><br><br><br><br>
+        <h2 class="text-light bg-primary" id="charlas">Anotate a nuestras charlas / seminarios</h2>
+        <section class="container" id="formulario">            
+            <div class="row">                
+                <div class="col">
+                    <form id="inscripcion">
+                        <legend>Formulario de Inscripcion</legend>
+                        <label for="disabledSelect" class="form-label">Charlas</label>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option value="">Seleccione una opcion</option>
+                            <option value="1">Transporte de materiales</option>
+                            <option value="2">Montaje</option>
+                            <option value="3">Corte mecánico, rectificado, desbardado y pulido</option>
+                            <option value="4">Manipulación de plásticos y otros materiales</option>
+                            <option value="5">Tareas peligrosas como soldaduras, transporte de materiales pesados</option>
+                        </select>
+                        <div class="row g-3">
+                            <div class="col">
+                                <label for="disabledSelect" class="form-label">fecha</label>
+                                <select class="form-select" aria-label="Default select example" required>
+                                    <option value="">Seleccione una opcion</option>
+                                    <option value="1">23/10/2023</option>
+                                    <option value="2">24/10/2023</option>
+                                    <option value="3">25/10/2023</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="disabledSelect" class="form-label">Turno / hora</label>
+                                <select class="form-select" aria-label="Default select example" required>
+                                    <option value="">Seleccione una opcion</option>
+                                    <option value="1">Mañana</option>
+                                    <option value="2">Tarde</option>
+                                    <option value="3">Noche</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Email</label>
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese su mail"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Observaciones</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Ingrese alguna obsevacion de su aprendizaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reservar cupo</button>                        
+                    </form>
+                </div>
+                <div class="col" id="charla-imagen">
+                    <img src="./img/charlas.jpg" alt="charlas" height="100px" id="imagen-c">
+                </div>
+            </div>
+        </section>        
+    </main>
+    <footer class="container">
+        <div class="row">
+            <div class="col">
+                <h4 class="icons">Seguinos</h4>
+                <ul class="lista">
+                    <li><a href="https://www.facebook.com/" class="icons"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg> </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" class="icons"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a>
+                    </li>
+                    <li><a href="https://twitter.com/home?lang=es" class="icons"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="icons">Compania</h4>
+                <ul class="lista">
+                    <li><a href="#inicio" class="icons">Home</a></li>
+                    <li><a href="#propuesta" class="icons">Nuestra Propuesta</a></li>
+                    <li><a href="#cursos" class="icons">Cursos</a></li>
+                    <li class="icons">Tel: 122-333-4444</li>
+                    <li class="icons">eMail: robokids@start.com</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="icons">¿Donde estamos?</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33797.45087328376!2d-58.63414427653225!3d-34.61842748792514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d055e548bf%3A0x738f85ea67aeabe5!2sUNaHur.%20Universidad%20Nacional%20de%20Hurlingham!5e0!3m2!1ses-419!2sar!4v1699493515353!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" id="maps">
+                </iframe>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <p>Copyright 2023 © Hernan Viltez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="alumno.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#usuario{
+      
+}
+#inicio h1 {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Monoton', sans-serif;
+    font-size: calc(50px + 1.7vw);
+    color: rgb(74, 86, 255);
+    text-shadow: 5px 2px 2px rgb(180, 255, 5);
+}
+header{
+    /*width: 100%; dejar fijo el nav
+    position: fixed;*/    
+}
+#dia{
+    margin-top: 5%;
+    /*background-color: aqua;*/
+    padding-bottom: 5%;
+    border-bottom: 2px solid rgb(194, 194, 194);
+}
+#clases{    
+}
+#charlas{
+    margin-top: 7%;    
+    height: 100%;
+}
+#charla-imagen{    
+    display: flex;
+    justify-content: center;    
+}
+#imagen-c{
+    height: 80%;
+    width: 80%;
+}
+h2{
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;   
+}
+footer {
+    margin-top: 5%;
+}
+
+.icons {
+    text-decoration: none;
+    color: #7572ff;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+
+}
+
+p {
+    text-align: justify;
+}
+@media (max-width: 720px){    
+    #charla-imagen{  
+        display: none;
+    }
+    #maps{
+        width: 100%;
+        min-width: 300px; 
+        min-height: 200px;   
+    }
+}
