@@ -1,2 +1,2 @@
-# Taller-Lenguajes-de-marcado-UNAHUR
-Practicos y parciales de la facu
+# Taller de lenguajes de marcado y tecnologías web UNAHUR
+## Practicos y parciales Vsc / HTML / CSS / JS
