@@ -3,4 +3,4 @@
 # Taller de lenguajes de marcado y tecnologías web 
 
 ## Practicos y parciales Vsc / HTML / CSS / JS
-1er cautrimestre 2023
+2do Cuatrimestre 2023
