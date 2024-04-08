@@ -1,4 +1,6 @@
-<img src="logo-unahur.png" alt="logo-unahur" width="300" height="100" />
+<div align="end">
+  <img  src="logo-unahur.png" alt="logo-unahur" width="300" height="100" />
+</div>  
 
 # Taller de lenguajes de marcado y tecnologías web 
 
